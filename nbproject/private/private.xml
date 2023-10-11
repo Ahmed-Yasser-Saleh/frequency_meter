@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/F:/Embedded%20system/microcontraller%20interfacing/MPLAB%20PROJECTS/FREQ%20METER/MCAL_layer/TIMER0/timer0.h</file>
+            <file>file:/F:/Embedded%20system/microcontraller%20interfacing/MPLAB%20PROJECTS/FREQ%20METER/ECU_layer/LCD/ecu_lcd.c</file>
+            <file>file:/F:/Embedded%20system/microcontraller%20interfacing/MPLAB%20PROJECTS/FREQ%20METER/freq_meter.c</file>
+            <file>file:/F:/Embedded%20system/microcontraller%20interfacing/MPLAB%20PROJECTS/FREQ%20METER/MCAL_layer/TIMER0/timer0.c</file>
+            <file>file:/F:/Embedded%20system/microcontraller%20interfacing/MPLAB%20PROJECTS/FREQ%20METER/MCAL_layer/mcal_std_types.h</file>
+            <file>file:/F:/Embedded%20system/microcontraller%20interfacing/MPLAB%20PROJECTS/FREQ%20METER/ECU_layer/LCD/ecu_lcd.h</file>
+            <file>file:/F:/Embedded%20system/microcontraller%20interfacing/MPLAB%20PROJECTS/FREQ%20METER/MCAL_layer/Interrupt/interrupt_manager.c</file>
+            <file>file:/F:/Embedded%20system/microcontraller%20interfacing/MPLAB%20PROJECTS/FREQ%20METER/MCAL_layer/compiler.h</file>
+            <file>file:/F:/Embedded%20system/microcontraller%20interfacing/MPLAB%20PROJECTS/FREQ%20METER/MCAL_layer/Interrupt/interrupt_internal.h</file>
+            <file>file:/F:/Embedded%20system/microcontraller%20interfacing/MPLAB%20PROJECTS/FREQ%20METER/freq_meter.h</file>
+            <file>file:/F:/Embedded%20system/microcontraller%20interfacing/MPLAB%20PROJECTS/FREQ%20METER/MCAL_layer/device_config.h</file>
+            <file>file:/C:/Program%20Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8/pic/include/proc/pic18f4620.h</file>
+            <file>file:/F:/Embedded%20system/microcontraller%20interfacing/MPLAB%20PROJECTS/FREQ%20METER/MCAL_layer/Interrupt/interrupt_manager.h</file>
+            <file>file:/F:/Embedded%20system/microcontraller%20interfacing/MPLAB%20PROJECTS/FREQ%20METER/MCAL_layer/std_libraries.h</file>
+            <file>file:/F:/Embedded%20system/microcontraller%20interfacing/MPLAB%20PROJECTS/FREQ%20METER/MCAL_layer/TIMER1/timer1.h</file>
+            <file>file:/C:/Program%20Files/Microchip/xc8/v2.41/pic/sources/c99/common/memset.c</file>
+            <file>file:/F:/Embedded%20system/microcontraller%20interfacing/MPLAB%20PROJECTS/FREQ%20METER/MCAL_layer/TIMER1/timer1.c</file>
+        </group>
+    </open-files>
+</project-private>

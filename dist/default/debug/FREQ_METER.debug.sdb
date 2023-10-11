@@ -1,0 +1,937 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4620 ]
+[d frameptr 4065 ]
+"53 F:\Embedded system\microcontraller interfacing\MPLAB PROJECTS\FREQ METER\ECU_layer/LCD/ecu_lcd.c
+[e E2968 . `uc
+LOW 0
+HIGH 1
+]
+"37 F:\Embedded system\microcontraller interfacing\MPLAB PROJECTS\FREQ METER\MCAL_layer/GPIO/gpio.c
+[e E2972 . `uc
+OUTPUT 0
+INPUT 1
+]
+"75
+[e E2968 . `uc
+LOW 0
+HIGH 1
+]
+"157
+[e E2986 . `uc
+PORTA_INDEX 0
+PORTB_INDEX 1
+PORTC_INDEX 2
+PORTD_INDEX 3
+PORTE_INDEX 4
+]
+"23 F:\Embedded system\microcontraller interfacing\MPLAB PROJECTS\FREQ METER\MCAL_layer/TIMER0/timer0.c
+[e E2972 . `uc
+TIMER0_PRESCALER_DIV_BY_2 0
+TIMER0_PRESCALER_DIV_BY_4 1
+TIMER0_PRESCALER_DIV_BY_8 2
+TIMER0_PRESCALER_DIV_BY_16 3
+TIMER0_PRESCALER_DIV_BY_32 4
+TIMER0_PRESCALER_DIV_BY_64 5
+TIMER0_PRESCALER_DIV_BY_128 6
+TIMER0_PRESCALER_DIV_BY_256 7
+]
+"22 F:\Embedded system\microcontraller interfacing\MPLAB PROJECTS\FREQ METER\MCAL_layer/TIMER1/timer1.c
+[e E2972 . `uc
+TIMER1_PRESCALER_DIV_BY_1 0
+TIMER1_PRESCALER_DIV_BY_2 1
+TIMER1_PRESCALER_DIV_BY_4 2
+TIMER1_PRESCALER_DIV_BY_8 3
+]
+"19 F:\Embedded system\microcontraller interfacing\MPLAB PROJECTS\FREQ METER\freq_meter.c
+[e E2986 . `uc
+PORTA_INDEX 0
+PORTB_INDEX 1
+PORTC_INDEX 2
+PORTD_INDEX 3
+PORTE_INDEX 4
+]
+[e E2976 . `uc
+PIN0 0
+PIN1 1
+PIN2 2
+PIN3 3
+PIN4 4
+PIN5 5
+PIN6 6
+PIN7 7
+]
+[e E2972 . `uc
+OUTPUT 0
+INPUT 1
+]
+[e E2968 . `uc
+LOW 0
+HIGH 1
+]
+"46
+[e E3106 . `uc
+TIMER0_PRESCALER_DIV_BY_2 0
+TIMER0_PRESCALER_DIV_BY_4 1
+TIMER0_PRESCALER_DIV_BY_8 2
+TIMER0_PRESCALER_DIV_BY_16 3
+TIMER0_PRESCALER_DIV_BY_32 4
+TIMER0_PRESCALER_DIV_BY_64 5
+TIMER0_PRESCALER_DIV_BY_128 6
+TIMER0_PRESCALER_DIV_BY_256 7
+]
+"55
+[e E3142 . `uc
+TIMER1_PRESCALER_DIV_BY_1 0
+TIMER1_PRESCALER_DIV_BY_2 1
+TIMER1_PRESCALER_DIV_BY_4 2
+TIMER1_PRESCALER_DIV_BY_8 3
+]
+"1 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"152 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+[v _pad pad `(v  1 s 1 pad ]
+"470
+[v _dtoa dtoa `(v  1 s 1 dtoa ]
+"1048
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+"1546
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\memset.c
+[v _memset memset `(*.39v  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"9 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\putch.c
+[v _putch putch `(v  1 e 1 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"21 F:\Embedded system\microcontraller interfacing\MPLAB PROJECTS\FREQ METER\ECU_layer/LCD/ecu_lcd.c
+[v _lcd_pins_4_initialize lcd_pins_4_initialize `(uc  1 e 1 0 ]
+"47
+[v _send_4_bit_command send_4_bit_command `(uc  1 e 1 0 ]
+[v i2_send_4_bit_command send_4_bit_command `(uc  1 e 1 0 ]
+"61
+[v _send_4_bit_char_data send_4_bit_char_data `(uc  1 e 1 0 ]
+[v i2_send_4_bit_char_data send_4_bit_char_data `(uc  1 e 1 0 ]
+"75
+[v _send_4_bit_enable send_4_bit_enable `(uc  1 s 1 send_4_bit_enable ]
+[v i2_send_4_bit_enable send_4_bit_enable `(uc  1 s 1 i2_send_4_bit_enable ]
+"87
+[v _send_4_bit_char_data_pos send_4_bit_char_data_pos `(uc  1 e 1 0 ]
+"98
+[v _send_4_bit_string_data send_4_bit_string_data `(uc  1 e 1 0 ]
+"111
+[v _send_4_bit_string_data_pos send_4_bit_string_data_pos `(uc  1 e 1 0 ]
+"125
+[v _send_4_bit_help send_4_bit_help `(uc  1 s 1 send_4_bit_help ]
+[v i2_send_4_bit_help send_4_bit_help `(uc  1 s 1 i2_send_4_bit_help ]
+"139
+[v _lcd_4_bit_set_cursor lcd_4_bit_set_cursor `(uc  1 s 1 lcd_4_bit_set_cursor ]
+[v i2_lcd_4_bit_set_cursor lcd_4_bit_set_cursor `(uc  1 s 1 i2_lcd_4_bit_set_cursor ]
+"210
+[v _send_8_bit_command send_8_bit_command `(uc  1 e 1 0 ]
+"226
+[v _send_8_bit_char_data send_8_bit_char_data `(uc  1 e 1 0 ]
+"242
+[v _send_8_bit_enable send_8_bit_enable `(uc  1 s 1 send_8_bit_enable ]
+"255
+[v _send_8_bit_char_data_pos send_8_bit_char_data_pos `(uc  1 e 1 0 ]
+"267
+[v _lcd_8_bit_set_cursor lcd_8_bit_set_cursor `(uc  1 s 1 lcd_8_bit_set_cursor ]
+"391
+[v _cnvert_uint32_to_string cnvert_uint32_to_string `(uc  1 e 1 0 ]
+"65 F:\Embedded system\microcontraller interfacing\MPLAB PROJECTS\FREQ METER\freq_meter.c
+[v _main main `(i  1 e 2 0 ]
+"80
+[v _application_initialize application_initialize `(v  1 e 1 0 ]
+"86
+[v _SET_FLAG SET_FLAG `(v  1 e 1 0 ]
+"31 F:\Embedded system\microcontraller interfacing\MPLAB PROJECTS\FREQ METER\MCAL_layer/GPIO/gpio.c
+[v _gpio_pin_direction_intialize gpio_pin_direction_intialize `(uc  1 e 1 0 ]
+"75
+[v _gpio_pin_write_logic gpio_pin_write_logic `(uc  1 e 1 0 ]
+[v i2_gpio_pin_write_logic gpio_pin_write_logic `(uc  1 e 1 0 ]
+"136
+[v _gpio_pin_intialize gpio_pin_intialize `(uc  1 e 1 0 ]
+"60 F:\Embedded system\microcontraller interfacing\MPLAB PROJECTS\FREQ METER\MCAL_layer/Interrupt/interrupt_manager.c
+[v _InterruptManager InterruptManager `IIH(v  1 e 1 0 ]
+"23 F:\Embedded system\microcontraller interfacing\MPLAB PROJECTS\FREQ METER\MCAL_layer/TIMER0/timer0.c
+[v _Timer0_init Timer0_init `(uc  1 e 1 0 ]
+"122
+[v _select_cnt_reg_size select_cnt_reg_size `(uc  1 s 1 select_cnt_reg_size ]
+"140
+[v _select_timer_mode select_timer_mode `(uc  1 s 1 select_timer_mode ]
+"163
+[v _prescaler_timer_status prescaler_timer_status `(uc  1 s 1 prescaler_timer_status ]
+"180
+[v _set_TIMER0_interrupt set_TIMER0_interrupt `(uc  1 s 1 set_TIMER0_interrupt ]
+"192
+[v _TIMER0_ISR TIMER0_ISR `(v  1 e 1 0 ]
+"22 F:\Embedded system\microcontraller interfacing\MPLAB PROJECTS\FREQ METER\MCAL_layer/TIMER1/timer1.c
+[v _Timer1_init Timer1_init `(uc  1 e 1 0 ]
+"80
+[v _Timer1_write_value Timer1_write_value `(uc  1 e 1 0 ]
+"92
+[v _Timer1_read_value Timer1_read_value `(uc  1 e 1 0 ]
+"107
+[v _select_timer_mode@timer1$F836 select_timer_mode `(uc  1 s 1 select_timer_mode ]
+"129
+[v _select_prescaler_timer select_prescaler_timer `(uc  1 s 1 select_prescaler_timer ]
+"140
+[v _set_TIMER1_interrupt set_TIMER1_interrupt `(uc  1 s 1 set_TIMER1_interrupt ]
+"152
+[v _TIMER1_ISR TIMER1_ISR `(v  1 e 1 0 ]
+"52 C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include/proc/pic18f4620.h
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"189
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"360
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"535
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"677
+[v _PORTE PORTE `VEuc  1 e 1 @3972 ]
+"880
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"992
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"1104
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"1216
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"1328
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+"1380
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"1602
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"1824
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"2046
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"2268
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+[s S487 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 PSPIE 1 0 :1:7 
+]
+"2519
+[s S496 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+]
+[u S500 . 1 `S487 1 . 1 0 `S496 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES500  1 e 1 @3997 ]
+[s S517 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+"2596
+[s S526 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+]
+[u S530 . 1 `S517 1 . 1 0 `S526 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES530  1 e 1 @3998 ]
+[s S786 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_T1SYNC 1 0 :1:2 
+]
+"5257
+[s S789 . 1 `uc 1 TMR1ON 1 0 :1:0 
+`uc 1 TMR1CS 1 0 :1:1 
+`uc 1 nT1SYNC 1 0 :1:2 
+`uc 1 T1OSCEN 1 0 :1:3 
+`uc 1 T1CKPS 1 0 :2:4 
+`uc 1 T1RUN 1 0 :1:6 
+`uc 1 RD16 1 0 :1:7 
+]
+[s S797 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T1SYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T1CKPS0 1 0 :1:4 
+`uc 1 T1CKPS1 1 0 :1:5 
+]
+[s S803 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SOSCEN 1 0 :1:3 
+`uc 1 . 1 0 :3:4 
+`uc 1 T1RD16 1 0 :1:7 
+]
+[u S808 . 1 `S786 1 . 1 0 `S789 1 . 1 0 `S797 1 . 1 0 `S803 1 . 1 0 ]
+[v _T1CONbits T1CONbits `VES808  1 e 1 @4045 ]
+"5334
+[v _TMR1L TMR1L `VEuc  1 e 1 @4046 ]
+"5341
+[v _TMR1H TMR1H `VEuc  1 e 1 @4047 ]
+[s S599 . 1 `uc 1 T0PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 T08BIT 1 0 :1:6 
+`uc 1 TMR0ON 1 0 :1:7 
+]
+"5878
+[s S606 . 1 `uc 1 T0PS0 1 0 :1:0 
+`uc 1 T0PS1 1 0 :1:1 
+`uc 1 T0PS2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 T016BIT 1 0 :1:6 
+]
+[u S612 . 1 `S599 1 . 1 0 `S606 1 . 1 0 ]
+[v _T0CONbits T0CONbits `VES612  1 e 1 @4053 ]
+"5940
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+"5947
+[v _TMR0H TMR0H `VEuc  1 e 1 @4055 ]
+[s S434 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"6406
+[s S443 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S452 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S456 . 1 `S434 1 . 1 0 `S443 1 . 1 0 `S452 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES456  1 e 1 @4082 ]
+"118 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"119
+[v _flags flags `uc  1 s 1 flags ]
+"144
+[v _dbuf dbuf `[32]uc  1 s 32 dbuf ]
+"13 F:\Embedded system\microcontraller interfacing\MPLAB PROJECTS\FREQ METER\freq_meter.c
+[v _freq freq `VEui  1 e 2 0 ]
+"14
+[v _flag flag `VEuc  1 e 1 0 ]
+"15
+[v _arr arr `[11]uc  1 e 11 0 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"19
+[s S29 . 6 `S24 1 rs_lcd 1 0 `[4]S24 1 lcd_pin 4 1 `S24 1 en_lcd 1 5 ]
+[v _lcd_4bit lcd_4bit `S29  1 e 6 0 ]
+[s S591 . 9 `*.37(v 1 interrupt_timer0 2 0 `uc 1 timer0_mode 1 2 `uc 1 timer0_counter_edge 1 3 `uc 1 prescaler_status 1 4 `E2972 1 prescaler_timer0_value 1 5 `uc 1 cnt_register_sz 1 6 `us 1 value_start_cnt 2 7 ]
+"46
+[v _timer0_obj timer0_obj `S591  1 e 9 0 ]
+[s S778 . 9 `*.37(v 1 interrupt_timer1 2 0 `uc 1 timer1_mode 1 2 `uc 1 timer1_counter_mode 1 3 `E2972 1 prescaler_timer1_value 1 4 `uc 1 timer1_operation_status 1 5 `uc 1 timer1_osc_status 1 6 `us 1 value_start_cnt 2 7 ]
+"55
+[v _timer1_obj timer1_obj `S778  1 e 9 0 ]
+"17 F:\Embedded system\microcontraller interfacing\MPLAB PROJECTS\FREQ METER\MCAL_layer/GPIO/gpio.c
+[v _tris_reg tris_reg `[5]*.39VEuc  1 e 10 0 ]
+"20
+[v _lat_reg lat_reg `[5]*.39VEuc  1 e 10 0 ]
+"23
+[v _port_reg port_reg `[5]*.39VEuc  1 e 10 0 ]
+"14 F:\Embedded system\microcontraller interfacing\MPLAB PROJECTS\FREQ METER\MCAL_layer/TIMER0/timer0.c
+[v _TIMER0_HUNDLER TIMER0_HUNDLER `*.37(v  1 e 2 0 ]
+"14 F:\Embedded system\microcontraller interfacing\MPLAB PROJECTS\FREQ METER\MCAL_layer/TIMER1/timer1.c
+[v _TIMER1_HUNDLER TIMER1_HUNDLER `*.37(v  1 e 2 0 ]
+"65 F:\Embedded system\microcontraller interfacing\MPLAB PROJECTS\FREQ METER\freq_meter.c
+[v _main main `(i  1 e 2 0 ]
+{
+"69
+[v main@i i `uc  1 a 1 30 ]
+"78
+} 0
+"98 F:\Embedded system\microcontraller interfacing\MPLAB PROJECTS\FREQ METER\ECU_layer/LCD/ecu_lcd.c
+[v _send_4_bit_string_data send_4_bit_string_data `(uc  1 e 1 0 ]
+{
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+[s S29 . 6 `S24 1 rs_lcd 1 0 `[4]S24 1 lcd_pin 4 1 `S24 1 en_lcd 1 5 ]
+[v send_4_bit_string_data@lcd lcd `*.39CS29  1 p 2 18 ]
+[v send_4_bit_string_data@data data `*.32uc  1 p 2 20 ]
+"110
+} 0
+"87
+[v _send_4_bit_char_data_pos send_4_bit_char_data_pos `(uc  1 e 1 0 ]
+{
+"88
+[v send_4_bit_char_data_pos@ret ret `uc  1 a 1 28 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"87
+[s S29 . 6 `S24 1 rs_lcd 1 0 `[4]S24 1 lcd_pin 4 1 `S24 1 en_lcd 1 5 ]
+[v send_4_bit_char_data_pos@lcd lcd `*.39CS29  1 p 2 23 ]
+[v send_4_bit_char_data_pos@row row `uc  1 p 1 25 ]
+[v send_4_bit_char_data_pos@column column `uc  1 p 1 26 ]
+[v send_4_bit_char_data_pos@data data `uc  1 p 1 27 ]
+"97
+} 0
+"61
+[v _send_4_bit_char_data send_4_bit_char_data `(uc  1 e 1 0 ]
+{
+"62
+[v send_4_bit_char_data@ret ret `uc  1 a 1 17 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"61
+[s S29 . 6 `S24 1 rs_lcd 1 0 `[4]S24 1 lcd_pin 4 1 `S24 1 en_lcd 1 5 ]
+[v send_4_bit_char_data@lcd lcd `*.39CS29  1 p 2 14 ]
+[v send_4_bit_char_data@data data `uc  1 p 1 16 ]
+"74
+} 0
+"139
+[v _lcd_4_bit_set_cursor lcd_4_bit_set_cursor `(uc  1 s 1 lcd_4_bit_set_cursor ]
+{
+"140
+[v lcd_4_bit_set_cursor@ret ret `uc  1 a 1 22 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"139
+[s S29 . 6 `S24 1 rs_lcd 1 0 `[4]S24 1 lcd_pin 4 1 `S24 1 en_lcd 1 5 ]
+[v lcd_4_bit_set_cursor@lcd lcd `*.39CS29  1 p 2 18 ]
+[v lcd_4_bit_set_cursor@row row `uc  1 p 1 20 ]
+[v lcd_4_bit_set_cursor@column column `uc  1 p 1 21 ]
+"163
+} 0
+"80 F:\Embedded system\microcontraller interfacing\MPLAB PROJECTS\FREQ METER\freq_meter.c
+[v _application_initialize application_initialize `(v  1 e 1 0 ]
+{
+"84
+} 0
+"21 F:\Embedded system\microcontraller interfacing\MPLAB PROJECTS\FREQ METER\ECU_layer/LCD/ecu_lcd.c
+[v _lcd_pins_4_initialize lcd_pins_4_initialize `(uc  1 e 1 0 ]
+{
+"29
+[v lcd_pins_4_initialize@cnt_pin cnt_pin `uc  1 a 1 23 ]
+"22
+[v lcd_pins_4_initialize@ret ret `uc  1 a 1 22 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"21
+[s S29 . 6 `S24 1 rs_lcd 1 0 `[4]S24 1 lcd_pin 4 1 `S24 1 en_lcd 1 5 ]
+[v lcd_pins_4_initialize@lcd lcd `*.39CS29  1 p 2 18 ]
+"46
+} 0
+"47
+[v _send_4_bit_command send_4_bit_command `(uc  1 e 1 0 ]
+{
+"48
+[v send_4_bit_command@ret ret `uc  1 a 1 17 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"47
+[s S29 . 6 `S24 1 rs_lcd 1 0 `[4]S24 1 lcd_pin 4 1 `S24 1 en_lcd 1 5 ]
+[v send_4_bit_command@lcd lcd `*.39CS29  1 p 2 14 ]
+[v send_4_bit_command@command command `uc  1 p 1 16 ]
+"60
+} 0
+"125
+[v _send_4_bit_help send_4_bit_help `(uc  1 s 1 send_4_bit_help ]
+{
+"126
+[v send_4_bit_help@ret ret `uc  1 a 1 13 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"125
+[s S29 . 6 `S24 1 rs_lcd 1 0 `[4]S24 1 lcd_pin 4 1 `S24 1 en_lcd 1 5 ]
+[v send_4_bit_help@lcd lcd `*.39CS29  1 p 2 10 ]
+[v send_4_bit_help@data_command data_command `uc  1 p 1 12 ]
+"137
+} 0
+"75
+[v _send_4_bit_enable send_4_bit_enable `(uc  1 s 1 send_4_bit_enable ]
+{
+"76
+[v send_4_bit_enable@ret ret `uc  1 a 1 12 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"75
+[s S29 . 6 `S24 1 rs_lcd 1 0 `[4]S24 1 lcd_pin 4 1 `S24 1 en_lcd 1 5 ]
+[v send_4_bit_enable@lcd lcd `*.39CS29  1 p 2 10 ]
+"86
+} 0
+"136 F:\Embedded system\microcontraller interfacing\MPLAB PROJECTS\FREQ METER\MCAL_layer/GPIO/gpio.c
+[v _gpio_pin_intialize gpio_pin_intialize `(uc  1 e 1 0 ]
+{
+"137
+[v gpio_pin_intialize@ret ret `uc  1 a 1 13 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"136
+[v gpio_pin_intialize@Pin_Config Pin_Config `*.39CS24  1 p 2 10 ]
+"147
+} 0
+"75
+[v _gpio_pin_write_logic gpio_pin_write_logic `(uc  1 e 1 0 ]
+{
+"76
+[v gpio_pin_write_logic@ret ret `uc  1 a 1 9 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"75
+[v gpio_pin_write_logic@Pin_Config Pin_Config `*.39CS24  1 p 2 0 ]
+[v gpio_pin_write_logic@logic logic `E2968  1 p 1 2 ]
+"88
+} 0
+"31
+[v _gpio_pin_direction_intialize gpio_pin_direction_intialize `(uc  1 e 1 0 ]
+{
+"32
+[v gpio_pin_direction_intialize@ret ret `uc  1 a 1 8 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"31
+[v gpio_pin_direction_intialize@Pin_Config Pin_Config `*.39CS24  1 p 2 0 ]
+"44
+} 0
+"22 F:\Embedded system\microcontraller interfacing\MPLAB PROJECTS\FREQ METER\MCAL_layer/TIMER1/timer1.c
+[v _Timer1_init Timer1_init `(uc  1 e 1 0 ]
+{
+[s S778 . 9 `*.37(v 1 interrupt_timer1 2 0 `uc 1 timer1_mode 1 2 `uc 1 timer1_counter_mode 1 3 `E2972 1 prescaler_timer1_value 1 4 `uc 1 timer1_operation_status 1 5 `uc 1 timer1_osc_status 1 6 `us 1 value_start_cnt 2 7 ]
+[v Timer1_init@timer1 timer1 `*.39S778  1 p 2 3 ]
+"68
+} 0
+"140
+[v _set_TIMER1_interrupt set_TIMER1_interrupt `(uc  1 s 1 set_TIMER1_interrupt ]
+{
+[s S778 . 9 `*.37(v 1 interrupt_timer1 2 0 `uc 1 timer1_mode 1 2 `uc 1 timer1_counter_mode 1 3 `E2972 1 prescaler_timer1_value 1 4 `uc 1 timer1_operation_status 1 5 `uc 1 timer1_osc_status 1 6 `us 1 value_start_cnt 2 7 ]
+[v set_TIMER1_interrupt@timer1 timer1 `*.39S778  1 p 2 0 ]
+"149
+} 0
+"107
+[v _select_timer_mode@timer1$F836 select_timer_mode `(uc  1 s 1 select_timer_mode ]
+{
+[s S778 . 9 `*.37(v 1 interrupt_timer1 2 0 `uc 1 timer1_mode 1 2 `uc 1 timer1_counter_mode 1 3 `E2972 1 prescaler_timer1_value 1 4 `uc 1 timer1_operation_status 1 5 `uc 1 timer1_osc_status 1 6 `us 1 value_start_cnt 2 7 ]
+[v select_timer_mode@timer1$F836@timer1 timer1 `*.39S778  1 p 2 0 ]
+"128
+} 0
+"129
+[v _select_prescaler_timer select_prescaler_timer `(uc  1 s 1 select_prescaler_timer ]
+{
+[s S778 . 9 `*.37(v 1 interrupt_timer1 2 0 `uc 1 timer1_mode 1 2 `uc 1 timer1_counter_mode 1 3 `E2972 1 prescaler_timer1_value 1 4 `uc 1 timer1_operation_status 1 5 `uc 1 timer1_osc_status 1 6 `us 1 value_start_cnt 2 7 ]
+[v select_prescaler_timer@timer1 timer1 `*.39S778  1 p 2 0 ]
+"138
+} 0
+"23 F:\Embedded system\microcontraller interfacing\MPLAB PROJECTS\FREQ METER\MCAL_layer/TIMER0/timer0.c
+[v _Timer0_init Timer0_init `(uc  1 e 1 0 ]
+{
+[s S591 . 9 `*.37(v 1 interrupt_timer0 2 0 `uc 1 timer0_mode 1 2 `uc 1 timer0_counter_edge 1 3 `uc 1 prescaler_status 1 4 `E2972 1 prescaler_timer0_value 1 5 `uc 1 cnt_register_sz 1 6 `us 1 value_start_cnt 2 7 ]
+[v Timer0_init@timer0 timer0 `*.39S591  1 p 2 3 ]
+"64
+} 0
+"180
+[v _set_TIMER0_interrupt set_TIMER0_interrupt `(uc  1 s 1 set_TIMER0_interrupt ]
+{
+[s S591 . 9 `*.37(v 1 interrupt_timer0 2 0 `uc 1 timer0_mode 1 2 `uc 1 timer0_counter_edge 1 3 `uc 1 prescaler_status 1 4 `E2972 1 prescaler_timer0_value 1 5 `uc 1 cnt_register_sz 1 6 `us 1 value_start_cnt 2 7 ]
+[v set_TIMER0_interrupt@timer0 timer0 `*.39S591  1 p 2 0 ]
+"189
+} 0
+"140
+[v _select_timer_mode select_timer_mode `(uc  1 s 1 select_timer_mode ]
+{
+[s S591 . 9 `*.37(v 1 interrupt_timer0 2 0 `uc 1 timer0_mode 1 2 `uc 1 timer0_counter_edge 1 3 `uc 1 prescaler_status 1 4 `E2972 1 prescaler_timer0_value 1 5 `uc 1 cnt_register_sz 1 6 `us 1 value_start_cnt 2 7 ]
+[v select_timer_mode@timer0 timer0 `*.39S591  1 p 2 0 ]
+"162
+} 0
+"122
+[v _select_cnt_reg_size select_cnt_reg_size `(uc  1 s 1 select_cnt_reg_size ]
+{
+[s S591 . 9 `*.37(v 1 interrupt_timer0 2 0 `uc 1 timer0_mode 1 2 `uc 1 timer0_counter_edge 1 3 `uc 1 prescaler_status 1 4 `E2972 1 prescaler_timer0_value 1 5 `uc 1 cnt_register_sz 1 6 `us 1 value_start_cnt 2 7 ]
+[v select_cnt_reg_size@timer0 timer0 `*.39S591  1 p 2 0 ]
+"139
+} 0
+"163
+[v _prescaler_timer_status prescaler_timer_status `(uc  1 s 1 prescaler_timer_status ]
+{
+[s S591 . 9 `*.37(v 1 interrupt_timer0 2 0 `uc 1 timer0_mode 1 2 `uc 1 timer0_counter_edge 1 3 `uc 1 prescaler_status 1 4 `E2972 1 prescaler_timer0_value 1 5 `uc 1 cnt_register_sz 1 6 `us 1 value_start_cnt 2 7 ]
+[v prescaler_timer_status@timer0 timer0 `*.39S591  1 p 2 0 ]
+"178
+} 0
+"60 F:\Embedded system\microcontraller interfacing\MPLAB PROJECTS\FREQ METER\MCAL_layer/Interrupt/interrupt_manager.c
+[v _InterruptManager InterruptManager `IIH(v  1 e 1 0 ]
+{
+"75
+} 0
+"152 F:\Embedded system\microcontraller interfacing\MPLAB PROJECTS\FREQ METER\MCAL_layer/TIMER1/timer1.c
+[v _TIMER1_ISR TIMER1_ISR `(v  1 e 1 0 ]
+{
+"156
+} 0
+"192 F:\Embedded system\microcontraller interfacing\MPLAB PROJECTS\FREQ METER\MCAL_layer/TIMER0/timer0.c
+[v _TIMER0_ISR TIMER0_ISR `(v  1 e 1 0 ]
+{
+"196
+} 0
+"86 F:\Embedded system\microcontraller interfacing\MPLAB PROJECTS\FREQ METER\freq_meter.c
+[v _SET_FLAG SET_FLAG `(v  1 e 1 0 ]
+{
+"97
+} 0
+"111 F:\Embedded system\microcontraller interfacing\MPLAB PROJECTS\FREQ METER\ECU_layer/LCD/ecu_lcd.c
+[v _send_4_bit_string_data_pos send_4_bit_string_data_pos `(uc  1 e 1 0 ]
+{
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+[s S29 . 6 `S24 1 rs_lcd 1 0 `[4]S24 1 lcd_pin 4 1 `S24 1 en_lcd 1 5 ]
+[v send_4_bit_string_data_pos@lcd lcd `*.39CS29  1 p 2 23 ]
+[v send_4_bit_string_data_pos@row row `uc  1 p 1 25 ]
+[v send_4_bit_string_data_pos@column column `uc  1 p 1 26 ]
+[v send_4_bit_string_data_pos@data data `*.34uc  1 p 2 27 ]
+"124
+} 0
+"61
+[v i2_send_4_bit_char_data send_4_bit_char_data `(uc  1 e 1 0 ]
+{
+"62
+[v i2send_4_bit_char_data@ret ret `uc  1 a 1 17 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"61
+[s S29 . 6 `S24 1 rs_lcd 1 0 `[4]S24 1 lcd_pin 4 1 `S24 1 en_lcd 1 5 ]
+[v i2send_4_bit_char_data@lcd lcd `*.39CS29  1 p 2 14 ]
+[v i2send_4_bit_char_data@data data `uc  1 p 1 16 ]
+"74
+} 0
+"139
+[v i2_lcd_4_bit_set_cursor lcd_4_bit_set_cursor `(uc  1 s 1 i2_lcd_4_bit_set_cursor ]
+{
+"140
+[v i2lcd_4_bit_set_cursor@ret ret `uc  1 a 1 22 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"139
+[s S29 . 6 `S24 1 rs_lcd 1 0 `[4]S24 1 lcd_pin 4 1 `S24 1 en_lcd 1 5 ]
+[v i2lcd_4_bit_set_cursor@lcd lcd `*.39CS29  1 p 2 18 ]
+[v i2lcd_4_bit_set_cursor@row row `uc  1 p 1 20 ]
+[v i2lcd_4_bit_set_cursor@column column `uc  1 p 1 21 ]
+"163
+} 0
+"47
+[v i2_send_4_bit_command send_4_bit_command `(uc  1 e 1 0 ]
+{
+"48
+[v i2send_4_bit_command@ret ret `uc  1 a 1 17 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"47
+[s S29 . 6 `S24 1 rs_lcd 1 0 `[4]S24 1 lcd_pin 4 1 `S24 1 en_lcd 1 5 ]
+[v i2send_4_bit_command@lcd lcd `*.39CS29  1 p 2 14 ]
+[v i2send_4_bit_command@command command `uc  1 p 1 16 ]
+"60
+} 0
+"125
+[v i2_send_4_bit_help send_4_bit_help `(uc  1 s 1 i2_send_4_bit_help ]
+{
+"126
+[v i2send_4_bit_help@ret ret `uc  1 a 1 13 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"125
+[s S29 . 6 `S24 1 rs_lcd 1 0 `[4]S24 1 lcd_pin 4 1 `S24 1 en_lcd 1 5 ]
+[v i2send_4_bit_help@lcd lcd `*.39CS29  1 p 2 10 ]
+[v i2send_4_bit_help@data_command data_command `uc  1 p 1 12 ]
+"137
+} 0
+"75
+[v i2_send_4_bit_enable send_4_bit_enable `(uc  1 s 1 i2_send_4_bit_enable ]
+{
+"76
+[v i2send_4_bit_enable@ret ret `uc  1 a 1 12 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"75
+[s S29 . 6 `S24 1 rs_lcd 1 0 `[4]S24 1 lcd_pin 4 1 `S24 1 en_lcd 1 5 ]
+[v i2send_4_bit_enable@lcd lcd `*.39CS29  1 p 2 10 ]
+"86
+} 0
+"75 F:\Embedded system\microcontraller interfacing\MPLAB PROJECTS\FREQ METER\MCAL_layer/GPIO/gpio.c
+[v i2_gpio_pin_write_logic gpio_pin_write_logic `(uc  1 e 1 0 ]
+{
+"76
+[v i2gpio_pin_write_logic@ret ret `uc  1 a 1 9 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"75
+[v i2gpio_pin_write_logic@Pin_Config Pin_Config `*.39CS24  1 p 2 0 ]
+[v i2gpio_pin_write_logic@logic logic `E2968  1 p 1 2 ]
+"88
+} 0
+"391 F:\Embedded system\microcontraller interfacing\MPLAB PROJECTS\FREQ METER\ECU_layer/LCD/ecu_lcd.c
+[v _cnvert_uint32_to_string cnvert_uint32_to_string `(uc  1 e 1 0 ]
+{
+"394
+[v cnvert_uint32_to_string@Temp_String Temp_String `[11]uc  1 a 11 86 ]
+"395
+[v cnvert_uint32_to_string@DataCounter DataCounter `uc  1 a 1 97 ]
+"391
+[v cnvert_uint32_to_string@value value `ui  1 p 2 82 ]
+[v cnvert_uint32_to_string@str str `*.39uc  1 p 2 84 ]
+"393
+[v cnvert_uint32_to_string@F3228 F3228 `[11]uc  1 s 11 F3228 ]
+"417
+} 0
+"9 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+[u S1560 . 3 `*.2uc 1 buffer 3 0 `*.2Cuc 1 source 3 0 ]
+"13
+[s S1563 _IO_FILE 12 `S1560 1 . 3 0 `i 1 count 2 3 `[3]uc 1 ungetbuf 3 5 `i 1 ungetcnt 2 8 `i 1 limit 2 10 ]
+[v sprintf@f f `S1563  1 a 12 70 ]
+"12
+[v sprintf@ap ap `[1]*.39v  1 a 2 68 ]
+"9
+[v sprintf@s s `*.39uc  1 p 2 62 ]
+[v sprintf@fmt fmt `*.32Cuc  1 p 2 64 ]
+"23
+} 0
+"1546 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+"1549
+[v vfprintf@cfmt cfmt `*.32uc  1 a 2 60 ]
+[s S1595 _IO_FILE 0 ]
+"1546
+[v vfprintf@fp fp `*.39S1595  1 p 2 54 ]
+[v vfprintf@fmt fmt `*.32Cuc  1 p 2 56 ]
+[v vfprintf@ap ap `*.39*.39v  1 p 2 58 ]
+"1569
+} 0
+"1048
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+{
+[u S1613 . 4 `i 1 sint 2 0 `ui 1 uint 2 0 `*.2v 1 vp 3 0 `d 1 f 4 0 ]
+"1059
+[v vfpfcnvrt@convarg convarg `S1613  1 a 4 48 ]
+"1050
+[v vfpfcnvrt@cp cp `*.32uc  1 a 2 52 ]
+[s S1595 _IO_FILE 0 ]
+"1048
+[v vfpfcnvrt@fp fp `*.39S1595  1 p 2 40 ]
+[v vfpfcnvrt@fmt fmt `*.39*.32uc  1 p 2 42 ]
+[v vfpfcnvrt@ap ap `*.39*.39v  1 p 2 44 ]
+"1543
+} 0
+"470
+[v _dtoa dtoa `(v  1 s 1 dtoa ]
+{
+"473
+[v dtoa@i i `i  1 a 2 37 ]
+[v dtoa@w w `i  1 a 2 35 ]
+[v dtoa@p p `i  1 a 2 33 ]
+"472
+[v dtoa@s s `uc  1 a 1 39 ]
+[s S1595 _IO_FILE 0 ]
+"470
+[v dtoa@fp fp `*.39S1595  1 p 2 27 ]
+[v dtoa@d d `i  1 p 2 29 ]
+"527
+} 0
+"152
+[v _pad pad `(v  1 s 1 pad ]
+{
+"154
+[v pad@w w `i  1 a 2 25 ]
+[v pad@i i `i  1 a 2 23 ]
+[s S1595 _IO_FILE 0 ]
+"152
+[v pad@fp fp `*.39S1595  1 p 2 16 ]
+[v pad@buf buf `*.39uc  1 p 2 18 ]
+[v pad@p p `i  1 p 2 20 ]
+"183
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+{
+"11
+[v fputs@i i `i  1 a 2 14 ]
+"10
+[v fputs@c c `uc  1 a 1 13 ]
+"8
+[v fputs@s s `*.39Cuc  1 p 2 9 ]
+[u S1560 . 3 `*.2uc 1 buffer 3 0 `*.2Cuc 1 source 3 0 ]
+[s S1563 _IO_FILE 12 `S1560 1 . 3 0 `i 1 count 2 3 `[3]uc 1 ungetbuf 3 5 `i 1 ungetcnt 2 8 `i 1 limit 2 10 ]
+[v fputs@fp fp `*.39S1563  1 p 2 11 ]
+"19
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 0 ]
+[u S1560 . 3 `*.2uc 1 buffer 3 0 `*.2Cuc 1 source 3 0 ]
+[s S1563 _IO_FILE 12 `S1560 1 . 3 0 `i 1 count 2 3 `[3]uc 1 ungetbuf 3 5 `i 1 ungetcnt 2 8 `i 1 limit 2 10 ]
+[v fputc@fp fp `*.39S1563  1 p 2 2 ]
+"24
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\putch.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+"9
+} 0
+"1 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+{
+[v abs@a a `i  1 p 2 6 ]
+"4
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 5 ]
+[v ___awmod@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awmod@dividend dividend `i  1 p 2 0 ]
+[v ___awmod@divisor divisor `i  1 p 2 2 ]
+"34
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 0 ]
+[v ___awdiv@divisor divisor `i  1 p 2 2 ]
+"41
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\memset.c
+[v _memset memset `(*.39v  1 e 2 0 ]
+{
+"6
+[v memset@s s `*.39uc  1 a 2 10 ]
+"7
+[v memset@k k `ui  1 a 2 8 ]
+"4
+[v memset@dest dest `*.39v  1 p 2 0 ]
+[v memset@c c `i  1 p 2 2 ]
+[v memset@n n `ui  1 p 2 4 ]
+"90
+} 0
+"80 F:\Embedded system\microcontraller interfacing\MPLAB PROJECTS\FREQ METER\MCAL_layer/TIMER1/timer1.c
+[v _Timer1_write_value Timer1_write_value `(uc  1 e 1 0 ]
+{
+[s S778 . 9 `*.37(v 1 interrupt_timer1 2 0 `uc 1 timer1_mode 1 2 `uc 1 timer1_counter_mode 1 3 `E2972 1 prescaler_timer1_value 1 4 `uc 1 timer1_operation_status 1 5 `uc 1 timer1_osc_status 1 6 `us 1 value_start_cnt 2 7 ]
+[v Timer1_write_value@timer1 timer1 `*.39S778  1 p 2 0 ]
+[v Timer1_write_value@value value `us  1 p 2 2 ]
+"91
+} 0
+"92
+[v _Timer1_read_value Timer1_read_value `(uc  1 e 1 0 ]
+{
+"94
+[v Timer1_read_value@tmr1H tmr1H `uc  1 a 1 9 ]
+[v Timer1_read_value@tmr1L tmr1L `uc  1 a 1 8 ]
+[s S778 . 9 `*.37(v 1 interrupt_timer1 2 0 `uc 1 timer1_mode 1 2 `uc 1 timer1_counter_mode 1 3 `E2972 1 prescaler_timer1_value 1 4 `uc 1 timer1_operation_status 1 5 `uc 1 timer1_osc_status 1 6 `us 1 value_start_cnt 2 7 ]
+"92
+[v Timer1_read_value@timer1 timer1 `*.39S778  1 p 2 0 ]
+[v Timer1_read_value@value value `*.39us  1 p 2 2 ]
+"105
+} 0
